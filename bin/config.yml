@@ -1,0 +1,29 @@
+dungeons:
+  #name to specify the sign of dungeon.
+  sign: '[Dungeon]'
+  #settings laguange (pt_br, en)
+  language: pt_br
+  #Settings the material used to check if the player wants to enter the dungeon.
+  configButtons:
+    yesButton:
+      id: green_stained_glass_pane
+      data: 5
+    noButton:
+      id: red_stained_glass_pane
+      data: 14
+  worldSpawn: 'world'
+  maxDropItens: 1
+  moneyCoin: '&6Money Coin'
+  #Ativar economia calabouço ou desativar, true (Ativo) / false (Desativado).
+  economyDungeon: true
+  #Ativar economia mob ou desativar, true (Ativo) / false (Desativado).
+  economyMobs: false
+  dropInventory: true
+AtivateEconomy: false
+ConfigurationParty:
+  maxParty: 5
+RateIncreaseLevel:
+  attack: 0.08
+  health: 0.1
+  speed: 0.0001
+SpawnLocation: ''

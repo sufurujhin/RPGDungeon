@@ -1,0 +1,382 @@
+Dungeon:
+  instance1:
+    door1:
+      door: '1'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -781.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -781.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door2:
+      door: '2'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -740.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -740.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door3:
+      door: '3'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 42.0
+        z: -698.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -699.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door4:
+      door: '4'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -658.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -658.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door5:
+      door: '5'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -617.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -617.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door6:
+      door: '6'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -576.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -576.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door7:
+      door: '7'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -535.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -535.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door8:
+      door: '8'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -494.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -494.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door9:
+      door: '9'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -453.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -453.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door10:
+      door: '10'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -412.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -412.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door11:
+      door: '11'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -371.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -371.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door12:
+      door: '12'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -330.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -330.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door13:
+      door: '13'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -289.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -289.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door14:
+      door: '14'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -248.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -248.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door15:
+      door: '15'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -207.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -207.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door16:
+      door: '16'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -166.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -166.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door17:
+      door: '17'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -125.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -125.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door18:
+      door: '18'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -84.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -84.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass
+    door19:
+      door: '19'
+      location1:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 869.0
+        y: 41.0
+        z: -43.0
+        pitch: 0.0
+        yaw: 0.0
+      location2:
+        ==: org.bukkit.Location
+        world: RankUP-Construcoes
+        x: 865.0
+        y: 34.0
+        z: -43.0
+        pitch: 0.0
+        yaw: 0.0
+      block:
+        id: glass

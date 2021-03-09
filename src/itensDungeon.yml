@@ -1,0 +1,259 @@
+#############################
+#          SET NV 1         #
+#############################
+setNv1Helmet:
+  name: '&a&lDark Learner Helmet'
+  itemId: 'LEATHER_HELMET'
+  slot: 1
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'PROTECTION_ENVIRONMENTAL:2'
+  options:
+    defense: 1
+    color: '0,0,0'
+    unbreakable: 0.5
+setNv1Chestplate:
+  name: '&a&lDark Learner Chestplate'
+  itemId: 'LEATHER_CHESTPLATE'
+  slot: 2
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'PROTECTION_ENVIRONMENTAL:2'
+  options:
+    defense: 3
+    color: '0,0,0'
+    unbreakable: 0.5
+setNv1Leggigs:
+  name: '&a&lDark Learner Leggigs'
+  itemId: 'LEATHER_LEGGINGS'
+  slot: 3
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'PROTECTION_ENVIRONMENTAL:2'
+  options:
+    defense: 2
+    color: '0,0,0'
+    unbreakable: 0.5
+setNv1Boots:
+  name: '&a&lDark Learner Boots'
+  itemId: 'LEATHER_BOOTS'
+  slot: 4
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'PROTECTION_ENVIRONMENTAL:2'
+  options:
+    defense: 1
+    color: '0,0,0'
+    unbreakable: 0.5
+swordNv1Main:
+  name: '&a&lDark Learner Sword'
+  itemId: 'WOODEN_SWORD'
+  slot: 0
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'DAMAGE_ALL:2'
+  options:
+    attack: 5.5
+    unbreakable: 0.5
+daggerNv1Secundary:
+  name: '&a&lDark Learner Dagger'
+  itemId: 'WOODEN_HOE'
+  slot: 5
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'DAMAGE_ALL:1'
+  options:
+    attack: 2
+    unbreakable: 0.5
+bowNv1:
+  name: '&a&lDark Learner Bow'
+  itemId: 'BOW'
+  slot: 4
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'ARROW_DAMAGE:1'
+  options:
+    unbreakable: 0.5
+#############################
+#          SET NV 2         #
+#############################
+setNv2Helmet:
+  name: '&a&lBlue Learner Helmet'
+  itemId: 'LEATHER_HELMET'
+  slot: 1
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'PROTECTION_ENVIRONMENTAL:2'
+  options:
+    defense: 2
+    color: '0,0,170'
+    unbreakable: 0.45
+setNv2Chestplate:
+  name: '&a&lBlue Learner Chestplate'
+  itemId: 'LEATHER_CHESTPLATE'
+  slot: 2
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'PROTECTION_ENVIRONMENTAL:2'
+  options:
+    defense: 4
+    color: '0,0,170'
+    unbreakable: 0.45
+setNv2Leggigs:
+  name: '&a&lBlue Learner Leggigs'
+  itemId: 'LEATHER_LEGGINGS'
+  slot: 3
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'PROTECTION_ENVIRONMENTAL:2'
+  options:
+    defense: 3
+    color: '0,0,170'
+    unbreakable: 0.45
+setNv2Boots:
+  name: '&a&lBlue Learner Boots'
+  itemId: 'LEATHER_BOOTS'
+  slot: 4
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'PROTECTION_ENVIRONMENTAL:2'
+  options:
+    defense: 2
+    color: '0,0,170'
+    unbreakable: 0.45
+swordNv2Main:
+  name: '&a&lBlue Learner Sword'
+  itemId: 'WOODEN_SWORD'
+  slot: 0
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'DAMAGE_ALL:3'
+  options:
+    attack: 6
+    unbreakable: 0.45
+daggerNv2Secundary:
+  name: '&a&lBlue Learner Dagger'
+  itemId: 'WOODEN_HOE'
+  slot: 5
+  lores:
+  - '&6-----&l&9RPG Craft&r&6------'
+  - '&4 Item exclusivo deste server!'
+  enchants:
+    - 'DAMAGE_ALL:2'
+  options:
+    attack: 2
+    unbreakable: 0.45
+#############################
+#          SET NV 3         #
+#############################
+#############################
+#          SET NV 4         #
+#############################
+#############################
+#          SET NV 5         #
+#############################
+goldSword:
+  name: '&8Legends Sword'
+  itemId: 'GOLDEN_SWORD'
+  #armas primaria [0], armaduras helmet [1], chestplate [2], leg [3], boots [4], armas secundaria [5]
+  slot: 0
+  #health = hp, defense= defesa, attack = ataque, attack_speed = velocidade de ataque, speed = velocidade de movimento, 
+  #unbreakable= nunca quebra 1.0 = 100% chance de drop, 0.01 = 1%
+  options:
+    unbreakable: 1.0
+    attack: 7.0
+    moveSpeed: 0.02
+    health: 2.0
+  lores:
+  - '&6-----RPG Craft------'
+goldSword2:
+  name: '&8Legends Sword 2'
+  itemId: 'GOLDEN_SWORD'
+  #armas primaria [0], armaduras helmet [1], chestplate [2], leg [3], boots [4], armas secundaria [5]
+  slot: 5
+  #health = hp, defense= defesa, attack = ataque, attack_speed = velocidade de ataque, speed = velocidade de movimento, 
+  #unbreakable= nunca quebra 1.0 = 100% chance de drop, 0.01 = 1%
+  options:
+    unbreakable: 1.0
+    attack: 7.0
+    moveSpeed: 0.02
+    health: 2.0
+  lores:
+  - '&6-----RPG Craft------'
+helmet:
+  name: '&8Helmet Kilian'
+  itemId: 'LEATHER_HELMET'
+  #armas primaria [0], armaduras helmet [1], chestplate [2], leg [3], boots [4], armas secundaria [5]
+  slot: 1
+  enchants:
+    - 'PROTECTION_ENVIRONMENTAL:2'
+    - 'MENDING:1'
+  #health = hp, defense= defesa, attack = ataque, attack_speed = velocidade de ataque, speed = velocidade de movimento
+  options:
+    defense: 4.0
+    health: 2.0
+    color: '14,0,15'
+  lores:
+  - '&6-----RPG Craft------'
+chestplate:
+  name: '&8Chestplate Kilian'
+  itemId: 'LEATHER_CHESTPLATE'
+  #armas primaria [0], armaduras helmet [1], chestplate [2], leg [3], boots [4], armas secundaria [5]
+  slot: 2
+  #health = hp, defense= defesa, attack = ataque, attack_speed = velocidade de ataque, speed = velocidade de movimento
+  options:
+    defense: 7.0
+    health: 3.0
+    color: '14,255,15'
+  lores:
+  - '&6-----RPG Craft------'
+leggigs:
+  name: '&8Leggigs Kilian'
+  itemId: 'LEATHER_LEGGINGS'
+  #armas primaria [0], armaduras helmet [1], chestplate [2], leg [3], boots [4], armas secundaria [5]
+  slot: 3
+  #health = hp, defense= defesa, attack = ataque, attack_speed = velocidade de ataque, speed = velocidade de movimento
+  options:
+    defense: 5.0
+    health: 2.0
+    color: '14'
+  lores:
+  - '&6-----RPG Craft------'
+boots:
+  name: '&8Boots Kilian'
+  itemId: 'LEATHER_BOOTS'
+  #armas primaria [0], armaduras helmet [1], chestplate [2], leg [3], boots [4], armas secundaria [5]
+  slot: 4
+  #health = hp, defense= defesa, attack = ataque, attack_speed = velocidade de ataque, speed = velocidade de movimento
+  options:
+    defense: 4.0
+    health: 1.0
+    color: '14,255,15'
+    moveSpeed: 0.01
+    unbreakable: 0.5
+  lores:
+  - '&6-----RPG Craft------'

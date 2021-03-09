@@ -1,0 +1,69 @@
+#Exemplo de como adicionar mob a elsta lista, ou remover, so seguir padrao
+#Nome do mob, e valor de dinheiro que o player vai ganhar
+EconomiaMob:
+  Creeper:
+    money: 1
+  Zombie:
+    money: 1
+  Cow:
+    money: 1
+  ZombieVillager:
+    money: 1
+  CaveSpider:
+    money: 1
+  Blaze:
+    money: 1
+  Enderman:
+    money: 1
+  Ghast:
+    money: 1
+  Guardian:
+    money: 1
+  IronGolem:
+    money: 1
+  MagmaCube:
+    money: 1
+  PigZombie:
+    money: 1
+  Shulker:
+    money: 1
+  Skeleton:
+    money: 1
+  Slime:
+    money: 1
+  Wolf:
+    money: 1
+#Ender Dragon
+  EnderDragon:
+    money: 1
+  Witch:
+    money: 1
+#Wither
+  Wither:
+    money: 1
+#Giant
+  Giant:
+    money: 1
+  Spider:
+    money: 1
+  Ocelot:
+    money: 1
+  Sheep:
+    money: 1
+  Pig:
+    money: 1
+  PolarBear:
+    money: 1
+  Horse:
+    money: 1
+  Chicken:
+    money: 1
+  Rabbit:
+    money: 1
+  SnowMan:
+    money: 1
+  Squid:
+    money: 1
+#Mensagem que o player recebe por recolher moeda.
+SendMsg: true
+MsgDeGanho: '&6Voce recolheu do chao {amount} moedas de ouro!'

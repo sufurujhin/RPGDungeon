@@ -1,0 +1,12 @@
+name: RPGDungeon
+version: 2.0
+api-version: 1.13
+main: com.sufurujhin.rpgdungeon.RPGDungeon
+author: DanielDev
+commands:
+  rpgdungeon:
+    aliases: [rpg,rd]
+    description: Primary plugin command rpgdungeon.
+  dungeon:
+    aliases: [dg,pt,party]
+    description: Dungeon party command

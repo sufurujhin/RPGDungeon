@@ -1,0 +1,120 @@
+CreateSign:
+ #You must provide a name on the board so this name is the name of the dungeon.
+  nameDungeonError: '&6[RPGDungeon]You need to name this dungeon!'
+  #Mensagem de confirmação de entrada de calabouço criada com sucesso.
+  sucessFullCreateSign: '&6[&lRPGDungeon&r&6]Entrada de calabouço criada com sucesso!'
+  nameDoorError: '&bNome de Porta invalido, use na primeira linha door ou porta, na segunda o numero da porta'
+CreateEntryDungeon:
+  #mensagemErro ao criar um spawn para a instancia.
+  nameDungeonError: 'nome de calabouço não encontrado, verifique se você criou uma entrada com este nome!'
+  #mensagem Erro ao criar um nome de instancia
+  nameInstanceError: 'nome de instancia já em uso, delete na locationConfig.yml!'
+  nameInstanceNull: 'Nome de instancia não existe!'
+  doorNumberError: 'Use apenas numero na segunda linha'
+  doorSpawnMob: '&6[Dungeon]Elimine todos os mobs deste sala!'
+ConfigInstance:
+  nameSpawnMobError: 'Este nome de desova de mobs ja existe!'
+  spawnInstanceSucess: 'Desova de instancia criada com sucesso!'
+  spawnMobInstanceSucess: 'desova de monstros salva com sucesso!'
+MessageCommands:
+  msgCommandInvalid: 'Comando invalido.'
+  reloadConfig: '&b[RPGDungeon]Arquivos recarregadas!'
+  setDungeon: 'Comando Invalido use:\n/rd setdungeon [Nome da dungeon sem espaços] [Um nome de instancia, ex: instance01]' 
+  setMob: 'Comando invalido use:/rd setmob [Nome da dungeon] [Um nome de instancia] [Nome da desova de mobs] [numero da porta].'
+  nameInstanceNull: 'Nome de instancia não existe!'
+  nameSpawnMobError: 'Nome para esta desova de mobs ja esta em uso'
+  notPermission: 'Não tem permissão para usar este comando!'
+  itemNameDoesNotExist: 'Nome de item não encontrado!'
+  mobNameDoesNotExist: 'Nome de mob não encontrado!'
+  giveItemToPlayerError: 'Player não encontrado!'
+  giveItemToPlayer: '&2Você deu um &6<item>&r &2para &6<jogador>.'
+  earnItem: '&2Você ganhou um &r&6<item>'
+  notItemConfig: '&bNão exite itens criandos'
+  notMobConfig: '&bNão exite mobs criandos'
+  partyPlayerNotFolder: '&bJogador não encontrado ou não esta online!'
+  doorDungeonError: '&bDungeon não encontrada!'
+  doorInstanceError: '&bIntancia da Dungeon [<dungeon>], não encontrada!'
+  doorSaveSucess: '&bPorta salva <dungeon> <instance>'
+  doorErrorCreate: '&bNem dungeon <dungeon> e nem a instancia <instance> foram encontradas'
+  doorSelectionError: '&bPorta não selecionada'
+  consoleNotPlayer: '&bVoce precisa ser um jogador para executar este comando'
+MessageDungeon:
+  enterDungeonSucess: '&bVoce entrou no calabouço &8&l[&r&3<dungeon>&8&l]'
+  notHaveKey: '&bVocê não possui um item de entrada deste calabouço &r&8&l[&6<key>&8&l]&r'
+  incorrectKey: '&bA chave esta incorreta &r&8&l[&6<usedKey>&8&l], &r&buse a chave &r&8&l[&6<key>&8&l]&r'
+  handEmpty: '&bVocê precisa esta segurando o item de entrada deste calabouço na mão principal'
+  useClickLeft: '&bUse butão direiro do mouse!'
+  locationNoConfig: '&bEste calabouço esta lotado aguarde!'
+  YouNotAnyDungeon: '&bVocê não está em nenhum calabouço!'
+  bossNotDeath: '&b[Dungeon]Mate o boss -> &6(&4<boss>&6)&b!'
+  dungeonSucess: '&b[<dungeon>]Calabouço concluido com sucesso!'
+ConfigButtons:
+  resquest: '&b&lDeseja entrar no calabouço?'
+  yesButton: '&b&lSim'
+  noButton: '&b&lNão'
+PartyMesage:
+  leaveTheParty: '&bDeseja sair do grupo?'
+  leftThePart: '&bVocê deixou o grupo!'
+  notIsAGroup: '&bVoce não esta em nenhum grupo!'
+  youIsAGroup: '&bVoce ja esta em um grupo'
+  youNotLider: '&bApenas o lider pode convidar um membro para o grupo!'
+  playerLeftThePart: '&bO jogador <player> abandonou o grupo!'
+  joinThePart: '&bDeseja entrar no grupo de :<player>?'
+  inviteTheparty: '&bVoce convidou <target> para o grupo!'
+  invite: '&bO jogador <target> aceitou o convite para entrar no grupo!'
+  refuseInvite: '&bVoce recusou o convide de grupo de <player>!'
+  inviteNotAcept: '&bO jogador <player> recusou o convite de grupo!'
+  inviteTarget: '&bVoce aceitou o convite para entrar no grupo de <player>!'
+  groupForYourself: '&bNão pode enviar grupo para si mesmo!'
+  playerAlreadyYourGroup: '&bO jogador <target> ja esta em seu grupo!'
+  playerAlreadyGroup: '&bO jogador <target> ja esta em um grupo!'
+  playerAlreadyDungeon: '&bO jogador <target> ja esta em uma dungeon!'
+  youAlreadyDungeon: '&bVoce ja esta em uma dungeon, não pode convidar!'
+  limitGroupExceeded: '&bMaximo de membros em um grupo é <max>!'
+  listGroup: '&bMebros do grupo &l[&r&6<group>&b&l]&r&b!'
+  kickPlayerRequest: '&bDeseja expulsar <player>'
+  kickNotLider: '&bApenas lider pode expulsar!'
+  kickMsgTarget: '&bVoce foi expulso do grupo por <lider>'
+  kickMsgLider: '&bVoce expulsou <kick> do grupo!'
+  kickLider: '&bNao pode Expulsar a si mesmo!'
+  isGroupDungeon: '&bNao pode sair do grupo em quanto você ou algum membro está dentro do calabouço!'
+  memberPickupItem: '&b[Grupo]<player> recolheu do chão &d&l[&r&b<item>&d&l]&r&b, opções: &d&l[&r&b<ench>&d&l]'
+  memberDropItem: '&b[Grupo]<player> Derrubou no chão &d&l[&r&b<item>&d&l]&r&b, opções: &d&l[&r&b<ench>&d&l]'
+CommandList:
+  list:
+    - '&6&l---------RPGDungeon---------------'
+    - '&6/rd setdungeon &4&l[&r&6Nome da dungeon sem espaços&4&l] [&r&6Um nome de instancia, ex: instance01&4&l]&r'
+    - '&6/rd setmob &4&l[&r&6Nome da Dungeon&4&l] [&r&6Nome da instacia&4&l]&4&l [&r&6Nome da desova de mobs&4&l] [Numero da porta]'
+    - '&6/rd item give &4&l[&r&6Nome do item na configItens&4&l] [&r&6Nome do player&4&l]&r &b para dá um item!'
+    - '&6/rd setporta &4&l[&r&6Nome da Dungeon&4&l] [&r&6Nome da instacia&4&l]&4&l [&r&6Numero da porta&4&l] = marca a porta'
+    - '&6/rd setspawn &4&l[&r&6Nome da Dungeon&4&l] = marca o ponto de teleporte apos finalizar a dungeon! '
+    - '&6&l----------------------------------'
+  party:
+    - '&6&l---------Dungeon---------------'
+    - '&b/pt invite [Jogador] - para invitar um jogador!'
+    - '&b/pt sair - sair da pt em que está!'
+    - '&b/pt kick [Jogador] - para expulsar um jogador do grupo!'
+    - '&b/pt lista - para listar grupo!'
+    - '&b/roll - para jogar o dado para em um item'
+    
+Commands:
+  display: '&7=========RPGDungeonBR==========='
+  setDungeon:
+    - '&6/rd setdungeon &4&l[&r&6Nome da dungeon sem espaços&4&l] [&r&6Um nome de instancia, ex: instance01&4&l]&r'
+  setMob:
+    - '&6/rd setmob &4&l[&r&6Nome da Dungeon&4&l] [&r&6Nome da instacia&4&l]&4&l [&r&6Nome da desova de mobs&4&l] [Numero da porta]'
+  setPorta:
+    - '&6/rd setporta &4&l[&r&6Nome da Dungeon&4&l] [&r&6Nome da instacia&4&l]&4&l [&r&6Numero da porta&4&l]'
+  item:
+    - '&6/rd item list &4= para listar os itens'
+    - '&6/rd item give &4= para saber como ganhar ou dá o item'
+  give:
+    - '&6/rd item give [&dNome item&6] [Jogador] &4= para dá um item'
+    - '&6/rd item give [&dNome item&6] &4= para ganhar um item'
+  setspawn:
+    - '&6/rd setspawn &4&l[&r&6Nome da Dungeon&4&l] &r&6 para marcar o ponto de teleporte após finalizar a dungeon!'
+LoresItems:
+  loresKeyDungeon:
+    - '&6  Item de entrada   '
+    - '&7   de calabouço     '
+    - '&4----Localidade-----'

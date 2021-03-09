@@ -1,0 +1,534 @@
+Zombie:
+  type: 'Zombie'
+  displayName: '§bteste'
+  nv: 1
+  health: 1
+  attack: 100
+  speed: 0.2
+  passanger: []
+  equipment:
+    - 'goldSword'
+  drops:
+    - 'DIAMOND 1'
+    - 'DIAMOND 64 1'
+    - 'GOLD_ORE 5 1'
+    - 'goldSword 1'
+    - 'otherDrops'
+Giant:
+  type: 'Giant'
+  displayName: '§bAnao testador'
+  nv: 1
+  health: 1
+  attack: 100
+  speed: 0.2
+  equipment:
+    - 'goldSword'
+  drops:
+    - 'stone 1 1'
+Vex:
+  type: 'Vex'
+  displayName: '§bVex'
+  nv: 1
+  health: 1
+  attack: 0
+  speed: 0.2
+  twoHand: true
+  glowing: true
+  equipment:
+    - 'goldSword'
+  drops:
+    - 'DIAMOND 1'
+    - 'DIAMOND 64 1'
+    - 'GOLD_ORE 5 1'
+    - 'goldSword 1'
+    - 'otherDrops'
+Spider:
+  type: 'Spider'
+  displayName: '§bSpider'
+  nv: 1
+  health: 1
+  attack: 100
+  speed: 0.2
+  glowing: true
+  money: 10
+  xp: 100
+  drops:
+    - 'diamond 10 1'
+Guardian:
+  type: 'Guardian'
+  displayName: '§bGuardian'
+  nv: 1
+  health: 1
+  speed: 0.2
+  money: 10
+  xp: 100
+  drops:
+    - 'DIAMOND 1'
+    - 'DIAMOND 64 1'
+    - 'GOLD_ORE 5 1'
+    - 'goldSword 1'
+    - 'otherDrops'
+Sheep:
+  type: 'Sheep:Blue'
+  displayName: '§bOvelha'
+  nv: 1
+  health: 1
+  speed: 0.2
+  money: 10
+  xp: 100
+  drops:
+    - 'DIAMOND 1'
+    - 'DIAMOND 64 1'
+    - 'GOLD_ORE 5 1'
+    - 'goldSword 1'
+    - 'otherDrops'
+  effect: MOBSPAWNER_FLAMES:1
+  #potion = tiposkill, 10= raio,CONFUSION = efeito, 10=duração, 4 nivel efeito, 1 = chance de lance da skill
+  #teleport = tiposkill, 3 = damage, 1= chance de lance skill.
+  #fire = tiposkill, 10 = raio, 3 = duração, 1= chance de lance skill, msg = msg do boss (undeline = space na frase).
+  skills:
+    - 'potion 10:CONFUSION:10:4 0.1'
+    - 'teleport 3 0.07'
+    - 'fire 10 5 0.4 msg=<boss>:&d_Queime,_hahahahahaha!!!'
+###################################################
+#       MOBS DUNGEON QUIMERA                      #
+###################################################
+quimeraMob1:
+  type: 'Zombie'
+  displayName: '§cAndarilho Zombie'
+  nv: 1
+  attack: 4
+  health: 100
+  speed: 0.3
+  money: 10
+  xp: 50
+  drops:
+    - 'otherDrops'
+  equipment:
+    - 'setNv1Chestplate'
+    - 'setNv1Boots'
+quimeraBoss1:
+  type: 'Zombie'
+  displayName: '§4§lAndarilho Zombie Chefe'
+  nv: 10
+  attack: 1
+  health: 150
+  speed: 0.3
+  money: 100
+  glowing: true
+  twoHand: false
+  xp: 150
+  skills:
+    - 'teleport 3 0.07'
+    - 'fire 10 4 0.08 msg=<boss>:&d_Queimeee!!!'
+  effect: MOBSPAWNER_FLAMES:2
+  drops:
+    - 'otherDrops'
+    - 'setNv1Helmet 0.19'
+    - 'setNv1Chestplate 0.19'
+    - 'setNv1Leggigs 0.19'
+    - 'setNv1Boots 0.19'
+    - 'swordNv1Main 0.19'
+  equipment:
+    - 'swordNv1Main'
+    - 'setNv1Chestplate'
+quimeraMob2:
+  type: 'Zombie'
+  displayName: '§cQuerreiro Zombie'
+  nv: 5
+  attack: 4
+  health: 100
+  speed: 0.3
+  money: 16
+  xp: 50
+  drops:
+    - 'otherDrops'
+  equipment:
+    - 'setNv1Helmet'
+    - 'setNv1Chestplate'
+    - 'setNv1Boots'
+quimeraBoss2:
+  type: 'Zombie'
+  displayName: '§4§lQuerreiro Zombie Chefe'
+  nv: 10
+  attack: 1
+  health: 150
+  speed: 0.35
+  money: 130
+  glowing: true
+  twoHand: false
+  xp: 150
+  skills:
+    - 'teleport 3 0.07'
+    - 'fire 10 4 0.08 msg=<boss>:&d_Queimeee!!!'
+  effect: MOBSPAWNER_FLAMES:2
+  drops:
+    - 'otherDrops'
+    - 'setNv1Helmet 0.21'
+    - 'setNv1Chestplate 0.21'
+    - 'setNv1Leggigs 0.21'
+    - 'setNv1Boots 0.21'
+    - 'swordNv1Main 0.21'
+  equipment:
+    - 'swordNv1Main'
+    - 'setNv1Helmet'
+    - 'setNv1Chestplate'
+quimeraMob3:
+  type: 'Zombie'
+  displayName: '§cQuerreiro Zombie'
+  nv: 5
+  attack: 4
+  health: 100
+  speed: 0.3
+  money: 20
+  xp: 50
+  drops:
+    - 'otherDrops'
+  equipment:
+    - 'setNv1Helmet'
+    - 'setNv1Chestplate'
+    - 'setNv1Boots'
+quimeraBoss3:
+  type: 'Zombie'
+  displayName: '§4§lQuerreiro Zombie Chefe'
+  nv: 10
+  attack: 1.5
+  glowing: true
+  health: 150
+  speed: 0.35
+  money: 100
+  twoHand: true
+  xp: 160
+  skills:
+    - 'teleport 3 0.08'
+    - 'fire 10 4 0.09 msg=<boss>:&d_Queimeee!!!'
+  effect: MOBSPAWNER_FLAMES:2
+  drops:
+    - 'otherDrops'
+    - 'setNv1Helmet 0.21'
+    - 'setNv1Chestplate 0.21'
+    - 'setNv1Leggigs 0.21'
+    - 'setNv1Boots 0.21'
+    - 'swordNv1Main 0.21'
+  equipment:
+    - 'swordNv1Main'
+    - 'setNv1Chestplate'
+    - 'setNv1Leggigs'
+    - 'setNv1Helmet'
+    - 'setNv1Boots'
+quimeraMob4:
+  type: 'Skeleton'
+  displayName: '§cEsqueleto Minion'
+  nv: 5
+  attack: 8
+  health: 300
+  speed: 0.3
+  money: 20
+  xp: 50
+  drops:
+    - 'otherDrops'
+  equipment:
+    - 'bowNv1'
+quimeraBoss4:
+  type: 'Skeleton'
+  displayName: '§4§lArqueiro Chefe'
+  nv: 10
+  attack: 10
+  glowing: true
+  health: 300
+  speed: 0.3
+  money: 150
+  twoHand: false
+  xp: 100
+  skills:
+    - 'teleport 3 0.1'
+    - 'fire 10 4 0.15 msg=<boss>:&d_Queimeee!!!'
+  effect: MOBSPAWNER_FLAMES:2
+  drops:
+    - 'otherDrops'
+    - 'setNv1Helmet 0.25'
+    - 'setNv1Chestplate 0.25'
+    - 'setNv1Leggigs 0.25'
+    - 'setNv1Boots 0.25'
+    - 'swordNv1Main 0.25'
+    - 'bowNv1 0.25'
+  equipment:
+    - 'bowNv1'
+    - 'setNv1Chestplate'
+quimeraMob5:
+  type: 'Skeleton'
+  displayName: '§cEsqueleto Aprimorado'
+  nv: 5
+  attack: 9
+  health: 250
+  speed: 0.3
+  money: 20
+  xp: 50
+  drops:
+    - 'otherDrops'
+  equipment:
+    - 'setNv1Chestplate'
+    - 'setNv1Boots'
+quimeraBoss5:
+  type: 'Skeleton'
+  displayName: '§4§lArqueiro Aprimorado Chefe'
+  nv: 10
+  attack: 8
+  health: 310
+  speed: 0.3
+  money: 100
+  glowing: true
+  twoHand: false
+  xp: 100
+  skills:
+    - 'teleport 3 0.09'
+    - 'fire 10 4 0.1 msg=<boss>:&d_Queimeee!!!'
+  effect: MOBSPAWNER_FLAMES:2
+  drops:
+    - 'otherDrops'
+    - 'setNv1Helmet 0.23'
+    - 'setNv1Chestplate 0.23'
+    - 'setNv1Leggigs 0.23'
+    - 'setNv1Boots 0.23'
+    - 'swordNv1Main 0.23'
+  equipment:
+    - 'setNv1Leggigs'
+    - 'setNv1Chestplate'
+    - 'bowNv1'
+quimeraMob6:
+  type: 'Skeleton'
+  displayName: '§cEsqueleto Guerreiro'
+  nv: 5
+  attack: 8.5
+  health: 260
+  speed: 0.3
+  money: 20
+  xp: 50
+  drops:
+    - 'otherDrops'
+  equipment:
+    - 'bowNv1'
+    - 'setNv1Chestplate'
+    - 'setNv1Leggigs'
+    - 'setNv1Boots'
+quimeraBoss6:
+  type: 'Skeleton'
+  displayName: '§4§lArqueiro Guerreiro Chefe'
+  nv: 10
+  attack: 8
+  health: 180
+  speed: 0.3
+  money: 100
+  glowing: true
+  twoHand: false
+  xp: 160
+  skills:
+    - 'teleport 3 0.09'
+    - 'fire 10 4 0.1 msg=<boss>:&d_Queimeee!!!'
+  effect: MOBSPAWNER_FLAMES:2
+  drops:
+    - 'otherDrops'
+    - 'setNv1Helmet 0.27'
+    - 'setNv1Chestplate 0.27'
+    - 'setNv1Leggigs 0.27'
+    - 'setNv1Boots 0.27'
+    - 'swordNv1Main 0.27'
+  equipment:
+    - 'bowNv1'
+    - 'setNv1Chestplate'
+    - 'setNv1Leggigs'
+    - 'setNv1Boots'
+    - 'setNv1Helmet'
+quimeraMob7:
+  type: 'vindication_illager'
+  displayName: '§cVingador Zombie'
+  nv: 5
+  attack: 8.5
+  health: 260
+  speed: 0.24
+  money: 20
+  xp: 50
+  drops:
+    - 'otherDrops'
+quimeraBoss7:
+  type: 'vindication_illager'
+  displayName: '§4§lVingador Zombie Chefe'
+  nv: 10
+  attack: 9.5
+  health: 320
+  speed: 0.3
+  money: 100
+  glowing: true
+  twoHand: false
+  xp: 160
+  skills:
+    - 'teleport 3 0.09'
+    - 'fire 10 4 0.1 msg=<boss>:&d_Queimeee!!!'
+  effect: MOBSPAWNER_FLAMES:2
+  drops:
+    - 'otherDrops'
+    - 'setNv1Helmet 0.3'
+    - 'setNv1Chestplate 0.3'
+    - 'setNv1Leggigs 0.3'
+    - 'setNv1Boots 0.3'
+    - 'swordNv1Main 0.3'
+  equipment:
+    - 'setNv1Helmet'
+quimeraMob8:
+  type: 'vindication_illager'
+  displayName: '§cLenhador Zombie'
+  nv: 5
+  attack: 9
+  health: 280
+  speed: 0.24
+  money: 20
+  xp: 50
+  drops:
+    - 'otherDrops'
+  equipment:
+    - 'setNv1Helmet'
+quimeraBoss8:
+  type: 'vindication_illager'
+  displayName: '§4§lLenhador Zombie Chefe'
+  nv: 10
+  attack: 9.5
+  health: 320
+  speed: 0.3
+  money: 100
+  glowing: true
+  twoHand: false
+  xp: 160
+  skills:
+    - 'teleport 3 0.09'
+    - 'fire 10 4 0.1 msg=<boss>:&d_Queimeee!!!'
+  effect: MOBSPAWNER_FLAMES:2
+  drops:
+    - 'otherDrops'
+    - 'setNv1Helmet 0.3'
+    - 'setNv1Chestplate 0.3'
+    - 'setNv1Leggigs 0.3'
+    - 'setNv1Boots 0.3'
+    - 'swordNv1Main 0.3'
+  equipment:
+    - 'setNv1Helmet'
+    - 'setNv1Boots'
+quimeraMob9:
+  type: 'vindication_illager'
+  displayName: '§cGuerreiro Cruel'
+  nv: 5
+  attack: 9
+  health: 280
+  speed: 0.24
+  money: 25
+  xp: 55
+  skills:
+    - 'teleport 3 0.1'
+  drops:
+    - 'otherDrops'
+  equipment:
+    - 'setNv1Helmet'
+    - 'setNv1Chestplate'
+    - 'setNv1Leggigs'
+    - 'setNv1Boots'
+quimeraBoss9:
+  type: 'vindication_illager'
+  displayName: '§4§lGuerreiro Cruel Chefe'
+  nv: 10
+  attack: 9.5
+  health: 320
+  speed: 0.3
+  money: 180
+  glowing: true
+  twoHand: false
+  xp: 100
+  skills:
+    - 'teleport 3 0.1'
+    - 'fire 10 4 0.1 msg=<boss>:&d_Queimeee!!!'
+  effect: MOBSPAWNER_FLAMES:2
+  drops:
+    - 'otherDrops'
+    - 'setNv1Helmet 0.3'
+    - 'setNv1Chestplate 0.3'
+    - 'setNv1Leggigs 0.3'
+    - 'setNv1Boots 0.3'
+    - 'swordNv1Main 0.3'
+  equipment:
+    - 'setNv1Helmet'
+    - 'setNv1Chestplate'
+    - 'setNv1Leggigs'
+    - 'setNv1Boots'
+    - 'swordNv1Main'
+quimeraMob10:
+  type: 'vindication_illager'
+  displayName: '§cAssassino Cruel'
+  nv: 5
+  attack: 9
+  health: 280
+  speed: 0.24
+  money: 25
+  xp: 55
+  skills:
+    - 'teleport 3 0.1'
+  drops:
+    - 'otherDrops'
+  equipment:
+    - 'setNv1Helmet'
+    - 'setNv1Chestplate'
+    - 'setNv1Leggigs'
+    - 'setNv1Boots'
+    - 'swordNv1Main'
+quimeraBoss10:
+  type: 'vindication_illager'
+  displayName: '§4§lAssassino Cruel Chefe'
+  nv: 10
+  attack: 9.5
+  health: 320
+  speed: 0.3
+  money: 180
+  glowing: true
+  twoHand: false
+  xp: 100
+  skills:
+    - 'teleport 3 0.1'
+    - 'fire 10 4 0.1 msg=<boss>:&d_Queimeee!!!'
+  effect: MOBSPAWNER_FLAMES:2
+  drops:
+    - 'otherDrops'
+    - 'setNv1Helmet 0.3'
+    - 'setNv1Chestplate 0.3'
+    - 'setNv1Leggigs 0.3'
+    - 'setNv1Boots 0.3'
+    - 'swordNv1Main 0.3'
+  equipment:
+    - 'setNv2Helmet'
+    - 'setNv2Chestplate'
+    - 'setNv2Leggigs'
+    - 'setNv2Boots'
+    - 'swordNv2Main'
+Elder:
+  type: 'ELDER_GUARDIAN'
+  displayName: '§b§lQuimera Guardião'
+  nv: 1
+  health: 500
+  speed: 0.2
+  money: 1000
+  xp: 100
+  drops:
+    - 'setNv1Helmet 0.4'
+    - 'setNv1Chestplate 0.4'
+    - 'setNv1Leggigs 0.4'
+    - 'setNv1Boots 0.4'
+    - 'swordNv1Main 0.4'
+    - 'setNv2Helmet 0.4'
+    - 'setNv2Chestplate 0.4'
+    - 'setNv2Leggigs 0.4'
+    - 'setNv2Boots 0.4'
+    - 'swordNv2Main 0.4'
+    - 'otherDrops'
+  effect: MOBSPAWNER_FLAMES:1
+  #potion = tiposkill, 10= raio,CONFUSION = efeito, 10=duração, 4 nivel efeito, 1 = chance de lance da skill
+  #teleport = tiposkill, 3 = damage, 1= chance de lance skill.
+  #fire = tiposkill, 10 = raio, 3 = duração, 1= chance de lance skill, msg = msg do boss (undeline = space na frase).
+  skills:
+    - 'potion 10:CONFUSION:10:4 0.6'
+    - 'teleport 3 0.3'

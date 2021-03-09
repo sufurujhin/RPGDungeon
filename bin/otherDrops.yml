@@ -1,0 +1,5 @@
+#lista de itens variados, id(Tipo String= golden_apple)----quantidade(numero= 2)-----chance drop(numero = 1)
+OtherDrops:
+  - "golden_apple 2 1"
+  - "stone 64 1"
+  - "glass 64 0.15"
